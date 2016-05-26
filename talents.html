@@ -28,7 +28,7 @@
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-	
+
 	<!-- PRELOADER -->
 	<div class="page-loader">
 		<div class="loader">Loading...</div>
@@ -37,7 +37,7 @@
 
 	<!-- WRAPPER -->
 	<div class="wrapper">
-		<div class="font-alt" style="position: fixed;bottom: 8px;z-index: 1000;right: 44px;" id="time"></div>
+
 		<!-- NAVIGATION -->
 		<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top">
 
@@ -97,7 +97,6 @@
 						<li><a href="contact.html">Contact</a></li>
 			
 						
-			
 					</ul>
 				</div>
 			
@@ -107,17 +106,19 @@
 		<!-- /NAVIGATION -->
 
 		<!-- HERO -->
-		<section id="hero" class="module-hero module-parallax module-full-height bg-light-60" data-background="assets/images/retro.jpg">
+		<section class="module-small bg-dark-30" data-background="assets/images/surf.jpg" style="background-image: url(&quot;assets/images/surf.jpg&quot;);">
 
-			<!-- HERO TEXT -->
-			<div class="hero-caption">
-				<div class="hero-text">
-					<h1 class="mh-line-size-1 font-alt m-b-60">Drew Ludwig</h1>
-					<h5 class="mh-line-size-5 font-alt m-b-50">Front End Developer</h5>
-					<a href="#here"><i class="fa fa-chevron-circle-down"></i></a>
+			<div class="container">
+
+				<!-- MODULE TITLE -->
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-3">
+						<h2 class="module-title font-alt">Talents</h2>
+					</div>
 				</div>
+				<!-- /MODULE TITLE -->
+
 			</div>
-			<!-- /HERO TEXT -->
 
 		</section>
 		<!-- /HERO -->
@@ -130,7 +131,7 @@
 				<!-- MODULE TITLE -->
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-3">
-						<h2 class="module-title font-alt" id="here">About Studio</h2>
+						<h2 class="module-title font-alt">About Studio</h2>
 						<div class="module-subtitle font-serif">
 							We’re an award winning London based digital agency, lovingly curating pixels for maximum impact. We don’t have a style — we have standards.
 						</div>
@@ -192,12 +193,13 @@
 		</section >
 		<!-- /ABOUT -->
 
-	
+		<hr class="divider"><!-- DIVIDER -->
 
 
 		<hr class="divider"><!-- DIVIDER -->
 
 		
+
 		
 
 		
@@ -217,14 +219,14 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<!-- IMAGE OR SIMPLE TEXT -->
-						<i class="fa fa-tree"></i>
+						<img src="assets/images/site-logo.png" alt="">
 					</div>
 				</div>
 		
 				<div class="row m-t-40">
 		
 					<div class="col-sm-3">
-						
+						<h5 class="font-alt m-t-0 m-b-20">&nbsp;</h5>
 						<p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
 						<p><a href="#">Who We Are →</a></p>
 					</div>
@@ -261,9 +263,19 @@
 		
 		</section>
 		
-	
+		<hr class="divider"><!-- DIVIDER -->
 		
+		<footer class="module-small bg-light p-t-30 p-b-30">
 		
+			<div class="container">
+		
+				<div class="col-sm-12">
+					<p class="copyright text-center m-b-0">© 2015 <a href="#">Incanto</a>, All Rights Reserved.</p>
+				</div>
+		
+			</div>
+		
+		</footer>
 		<!-- /FOOTER -->
 
 	</div>
@@ -296,53 +308,5 @@
 	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/custom.js"></script>
 
-	<script type="text/javascript">
-		function checkTime(i) {
-    if (i < 10) {
-        i = "0" + i;
-    }
-    return i;
-}
-
-(function () {
-	function checkTime(i) {
-		return (i < 10) ? "0" + i : i;
-	}
-
-	function startTime() {
-		var today = new Date(),
-		h = checkTime(today.getHours()),
-		m = checkTime(today.getMinutes()),
-		s = checkTime(today.getSeconds());
-		document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
-		t = setTimeout(function () {
-			startTime()
-		}, 500);
-	}
-	startTime();
-})();
-
-
-	</script>
-	<script>
-		$(function() {
-			$('a[href*="#"]:not([href="#"])').click(function() {
-				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-					if (target.length) {
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		});
-	</script>
-
 </body>
 </html>
-
-
-
