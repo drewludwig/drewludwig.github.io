@@ -5,18 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	
-	<title>Incanto - Responsive Multipurpose Template</title>
-	
+
+	<title>Incanto - HTML Template</title>
+
 	<!-- Favicons -->
 	<link rel="shortcut icon" href="assets/images/favicon.png">
 	<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-	
+
 	<!-- Bootstrap core CSS -->
 	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	
+
 	<!-- Plugins -->
 	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	<link href="assets/css/et-line-font.css" rel="stylesheet">
@@ -26,7 +26,9 @@
 	<link href="assets/css/superslides.css" rel="stylesheet">
 	<link href="assets/css/vertical.css" rel="stylesheet">
 	<link href="assets/css/animate.css" rel="stylesheet">
-	
+
+	<link href="http://theme.nileforest.com/html/mazel-v1.1/css/plugin/jPushMenu.css" rel="stylesheet">
+
 	<!-- Template core CSS -->
 	<link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -38,6 +40,22 @@
 	</div>
 	<!-- /PRELOADER -->
 
+	<!-- SEARCH -->
+	<section class="top-search-bar cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-top">
+
+		<div class="container">
+
+			<div class="push-search">
+				<form>
+					<input type="text" class="form-control input-lg form-full" placeholder="Search...">
+				</form>
+			</div>
+
+		</div>
+
+	</section>
+	<!-- /SEARCH -->
+
 	<!-- WRAPPER -->
 	<div class="wrapper">
 
@@ -45,7 +63,7 @@
 		<nav class="navbar navbar-custom navbar-transparent navbar-fixed-top">
 
 			<div class="container">
-			
+
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
 						<span class="sr-only">Toggle navigation</span>
@@ -53,7 +71,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-			
+
 					<!-- YOU LOGO HERE -->
 					<a class="navbar-brand" href="index.html">
 						<!-- IMAGE OR SIMPLE TEXT -->
@@ -61,11 +79,11 @@
 						<img class="light-logo" src="assets/images/site-logo-light.png" width="95" alt="">
 					</a>
 				</div>
-			
+
 				<div class="collapse navbar-collapse" id="custom-collapse">
-			
+
 					<ul class="nav navbar-nav navbar-right">
-			
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
 							<ul class="dropdown-menu" role="menu">
@@ -79,7 +97,7 @@
 										<li><a href="index-5.html">Youtube background</a></li>
 									</ul>
 								</li>
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">One page</a>
 									<ul class="dropdown-menu">
@@ -92,11 +110,11 @@
 								</li>
 							</ul>
 						</li>
-			
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
 							<ul class="dropdown-menu" role="menu">
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
 									<ul class="dropdown-menu">
@@ -104,7 +122,7 @@
 										<li><a href="about-2.html">About 2</a></li>
 									</ul>
 								</li>
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
 									<ul class="dropdown-menu">
@@ -112,7 +130,7 @@
 										<li><a href="services-2.html">Services 2</a></li>
 									</ul>
 								</li>
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact</a>
 									<ul class="dropdown-menu">
@@ -120,7 +138,7 @@
 										<li><a href="contact-2.html">Contact 2</a></li>
 									</ul>
 								</li>
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pricing</a>
 									<ul class="dropdown-menu">
@@ -128,18 +146,18 @@
 										<li><a href="pricing-2.html">Pricing 2</a></li>
 									</ul>
 								</li>
-			
+
 								<li><a href="login-register.html">Login / Register</a></li>
-			
+
 								<li><a href="faq-1.html">FAQ</a></li>
-			
+
 							</ul>
 						</li>
-			
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
 							<ul class="dropdown-menu" role="menu">
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Packery</a>
 									<ul class="dropdown-menu">
@@ -148,7 +166,7 @@
 										<li><a href="portfolio-gradient-hover.html">Gradient</a></li>
 									</ul>
 								</li>
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Masonry</a>
 									<ul class="dropdown-menu">
@@ -157,7 +175,7 @@
 										<li><a href="portfolio-masonry-gradient-hover.html">Gradient</a></li>
 									</ul>
 								</li>
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Single</a>
 									<ul class="dropdown-menu">
@@ -170,14 +188,14 @@
 										<li><a href="portfolio-single-7.html">Single 7</a></li>
 									</ul>
 								</li>
-			
+
 							</ul>
 						</li>
-			
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
 							<ul class="dropdown-menu" role="menu">
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Grid</a>
 									<ul class="dropdown-menu">
@@ -185,7 +203,7 @@
 										<li><a href="blog-grid-3.html">3 columns</a></li>
 									</ul>
 								</li>
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Masonry</a>
 									<ul class="dropdown-menu">
@@ -193,16 +211,16 @@
 										<li><a href="blog-masonry-3.html">3 columns</a></li>
 									</ul>
 								</li>
-			
+
 								<li><a href="blog-single.html">Single post</a></li>
-			
+
 							</ul>
 						</li>
-			
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
 							<ul class="dropdown-menu" role="menu">
-			
+
 								<li class="dropdown">
 									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Grid</a>
 									<ul class="dropdown-menu">
@@ -210,14 +228,14 @@
 										<li><a href="shop-grid-col-4.html">4 columns</a></li>
 									</ul>
 								</li>
-			
+
 								<li><a href="shop-product.html">Product</a></li>
-			
+
 								<li><a href="shop-checkout.html">Checkout</a></li>
-			
+
 							</ul>
 						</li>
-			
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Features</a>
 							<ul class="dropdown-menu" role="menu">
@@ -231,26 +249,14 @@
 								<li><a href="components-modules.html">Modules & Overlays</a></li>
 							</ul>
 						</li>
-			
+
 						<li><a href="contact-1.html">Contact</a></li>
-			
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle search-dropdown" data-toggle="dropdown"><i class="fa fa-search"></i></a>
-							<ul class="dropdown-menu" role="menu">
-								<li>
-									<div class="dropdown-search">
-										<form role="form">
-											<input type="text" class="form-control" placeholder="Search...">
-											<button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
-										</form>
-									</div>
-								</li>
-							</ul>
-						</li>
-			
+
+						<li><a href="#" class="toggle-menu menu-top push-body"><i class="fa fa-search"></i></a></li>
+
 					</ul>
 				</div>
-			
+
 			</div>
 
 		</nav>
@@ -470,7 +476,7 @@
 
 					<div class="col-sm-12">
 						<ul id="filters" class="filters font-alt">
-							<li><a href="#" data-filter="*" class="current">All</a></li>
+							<li><a href="#" data-filter="*"class="current">All</a></li>
 							<li><a href="#" data-filter=".branding">Branding</a></li>
 							<li><a href="#" data-filter=".design">Design</a></li>
 							<li><a href="#" data-filter=".photo">Photo</a></li>
@@ -638,7 +644,7 @@
 				<div class="row m-t-70 text-center">
 					<div class="col-sm-12">
 
-						<button id="show-more" class="btn btn-round btn-b">More works</button>
+						<button href="#" id="show-more" class="btn btn-round btn-b">More works</button>
 
 					</div>
 				</div>
@@ -1144,31 +1150,31 @@
 
 		<!-- FOOTER -->
 		<section class="module-small bg-light">
-		
+
 			<div class="container">
-		
+
 				<div class="row">
 					<div class="col-sm-3">
 						<!-- IMAGE OR SIMPLE TEXT -->
 						<img src="assets/images/site-logo.png" alt="">
 					</div>
 				</div>
-		
+
 				<div class="row m-t-40">
-		
+
 					<div class="col-sm-3">
 						<h5 class="font-alt m-t-0 m-b-20">&nbsp;</h5>
 						<p>The European languages are members of the same family. Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
 						<p><a href="#">Who We Are →</a></p>
 					</div>
-		
+
 					<div class="col-sm-3">
 						<h5 class="font-alt m-t-0 m-b-20">Connect</h5>
 						Email: somecompany@example.com
 						<br>
 						Phone: +1 234 567 89 10
 					</div>
-		
+
 					<div class="col-sm-3">
 						<h5 class="font-alt m-t-0 m-b-20">Useful links</h5>
 						<ul class="list-unstyled">
@@ -1178,7 +1184,7 @@
 							<li><a href="faq-1.html">FAQ</a></li>
 						</ul>
 					</div>
-		
+
 					<div class="col-sm-3">
 						<h5 class="font-alt m-t-0 m-b-20">Follow us</h5>
 						<ul class="list-unstyled">
@@ -1187,25 +1193,25 @@
 							<li><a href="https://dribbble.com/">Dribbble</a></li>
 						</ul>
 					</div>
-		
+
 				</div>
-		
+
 			</div>
-		
+
 		</section>
-		
+
 		<hr class="divider"><!-- DIVIDER -->
-		
+
 		<footer class="module-small bg-light p-t-30 p-b-30">
-		
+
 			<div class="container">
-		
+
 				<div class="col-sm-12">
 					<p class="copyright text-center m-b-0">© 2015 <a href="#">Incanto</a>, All Rights Reserved.</p>
 				</div>
-		
+
 			</div>
-		
+
 		</footer>
 		<!-- /FOOTER -->
 
@@ -1234,8 +1240,13 @@
 	<script src="assets/js/jqBootstrapValidation.js"></script>
 	<script src="assets/js/jquery.fitvids.js"></script>
 	<script src="assets/js/jquery.parallax-1.1.3.js"></script>
+	<script src="assets/js/smoothscroll.js"></script>
 	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="assets/js/gmaps.js"></script>
+
+	<script src="http://theme.nileforest.com/html/mazel-v1.1/js/plugin/jPushMenu.js"></script>
+
+
 	<script src="assets/js/contact.js"></script>
 	<script src="assets/js/custom.js"></script>
 
